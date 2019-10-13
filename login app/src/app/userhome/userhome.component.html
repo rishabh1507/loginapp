@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <ul class="nav navbar-nav nav-pills ml-auto">
+    <li class="nav-item active">
+      <a class="nav-link active" (click)="logout()">LogOut</a>
+    </li>
+  </ul>
+</nav>
+
+
+<div class="jumbotron">
+  <h1 class="display-3"> Hi! ,{{username}} </h1>
+  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat deserunt quidem omnis nostrum
+    officiis. Ducimus, ut impedit libero dicta iste aut doloremque ullam laborum? Voluptate totam labore odio similique
+    nihil?</p>
+  <hr class="my-2">
+  <p>More info</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" routerLinkActive="active" routerLink='/login' role="button">Login</a>
+  </p>
+</div>
